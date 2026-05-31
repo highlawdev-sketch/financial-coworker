@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(cmd /c \"taskkill /F /IM node.exe\")",
+      "Bash(echo \"exit:$?\")"
+    ]
+  }
+}
